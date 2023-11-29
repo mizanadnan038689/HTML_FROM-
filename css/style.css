@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+}
+body {
+  background-color: tomato;
+}
+#admin-box {
+  background-color: rgb(255, 42, 4);
+  text-align: center;
+  width: 60%;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+#admin-box h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+}
+form {
+  margin-bottom: 20px;
+}
+input,
+label {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+label {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px 0px;
+}
+input {
+  background-color: tomato;
+  color: white;
+}
+input:focus {
+  background-color: white;
+  color: tomato;
+}
+input::placeholder {
+  color: white;
+}
+input[type='submit'] {
+  margin-top: 20px;
+  width: 50%;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: white;
+  transition: ease-in-out 0.8s;
+}
+input[type='submit']:hover {
+  background-color: white;
+  color: tomato;
+}
+p {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px 0px;
+}
+p a {
+  background-color: tomato;
+  color: white;
+  padding: 3px;
+}
